@@ -67,7 +67,7 @@ export default function Home() {
                   </a>
                 </Button>
                 <Button variant="outline" asChild>
-                  <a href="/assets/2025_OctCV_SheenaKeding_.pdf" download>
+                  <a href="/sheena-portfolio/assets/2025_OctCV_SheenaKeding_.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
                   </a>
@@ -78,7 +78,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl blur-2xl"></div>
                 <img 
-                  src="/assets/shrinkfilesizeprofphoto.jpg" 
+                  src="/sheena-portfolio/assets/shrinkfilesizeprofphoto.jpg" 
                   alt="Sheena Keding" 
                   className="relative rounded-2xl shadow-2xl max-w-md w-full object-cover"
                 />
@@ -164,7 +164,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">ACCNS-P (Pediatric CNS)</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/cert-accns-p.pdf" target="_blank">
+                      <a href="/sheena-portfolio/assets/cert-accns-p.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -173,7 +173,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">CPHQ (Healthcare Quality)</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/cert-cphq.pdf" target="_blank">
+                      <a href="/sheena-portfolio/assets/cert-cphq.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -182,7 +182,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">Doula Certification</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/cert-doula.pdf" target="_blank">
+                      <a href="/sheena-portfolio/assets/cert-doula.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -191,7 +191,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">HeartMath Certified</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/cert-heartmath.pdf" target="_blank">
+                      <a href="/sheena-portfolio/assets/cert-heartmath.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -368,9 +368,9 @@ export default function Home() {
 
                   <div className="border-l-4 border-primary pl-4">
                     <div className="flex gap-4 items-start">
-                      <a href="/assets/poster-newborn-drops-2024.pdf" target="_blank" className="flex-shrink-0">
+                      <a href="/sheena-portfolio/assets/poster-newborn-drops-2024.pdf" target="_blank" className="flex-shrink-0">
                         <img 
-                          src="/assets/thumb-poster-newborn-drops-2024.jpg" 
+                          src="/sheena-portfolio/assets/thumb-poster-newborn-drops-2024.jpg" 
                           alt="Newborn drops prevention poster thumbnail"
                           className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                         />
@@ -381,7 +381,7 @@ export default function Home() {
                           the science [Poster presentation]. AWHONN Convention, Phoenix, AZ.
                         </p>
                         <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                          <a href="/assets/poster-newborn-drops-2024.pdf" target="_blank">
+                          <a href="/sheena-portfolio/assets/poster-newborn-drops-2024.pdf" target="_blank">
                             <FileText className="mr-2 h-4 w-4" />
                             View Poster
                           </a>
@@ -392,9 +392,9 @@ export default function Home() {
 
                   <div className="border-l-4 border-primary pl-4">
                     <div className="flex gap-4 items-start">
-                      <a href="/assets/poster-pneumonia-2023.pdf" target="_blank" className="flex-shrink-0">
+                      <a href="/sheena-portfolio/assets/poster-pneumonia-2023.pdf" target="_blank" className="flex-shrink-0">
                         <img 
-                          src="/assets/thumb-poster-pneumonia-2023.jpg" 
+                          src="/sheena-portfolio/assets/thumb-poster-pneumonia-2023.jpg" 
                           alt="Post-operative pneumonia poster thumbnail"
                           className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                         />
@@ -406,7 +406,7 @@ export default function Home() {
                           ACS Quality and Safety Conference.
                         </p>
                         <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                          <a href="/assets/poster-pneumonia-2023.pdf" target="_blank">
+                          <a href="/sheena-portfolio/assets/poster-pneumonia-2023.pdf" target="_blank">
                             <FileText className="mr-2 h-4 w-4" />
                             View Poster
                           </a>
@@ -417,9 +417,9 @@ export default function Home() {
 
                   <div className="border-l-4 border-primary pl-4">
                     <div className="flex gap-4 items-start">
-                      <a href="/assets/poster-irr-tool-2022.pdf" target="_blank" className="flex-shrink-0">
+                      <a href="/sheena-portfolio/assets/poster-irr-tool-2022.pdf" target="_blank" className="flex-shrink-0">
                         <img 
-                          src="/assets/thumb-poster-irr-tool-2022.jpg" 
+                          src="/sheena-portfolio/assets/thumb-poster-irr-tool-2022.jpg" 
                           alt="IRR Trigger Tool poster thumbnail"
                           className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                         />
@@ -430,7 +430,7 @@ export default function Home() {
                           [Poster presentation]. ACS Quality and Safety Conference.
                         </p>
                         <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                          <a href="/assets/poster-irr-tool-2022.pdf" target="_blank">
+                          <a href="/sheena-portfolio/assets/poster-irr-tool-2022.pdf" target="_blank">
                             <FileText className="mr-2 h-4 w-4" />
                             View Poster
                           </a>
@@ -448,9 +448,9 @@ export default function Home() {
 
                   <div className="border-l-4 border-primary pl-4">
                     <div className="flex gap-4 items-start">
-                      <a href="/assets/poster-nsqip-sampling-2017.pdf" target="_blank" className="flex-shrink-0">
+                      <a href="/sheena-portfolio/assets/poster-nsqip-sampling-2017.pdf" target="_blank" className="flex-shrink-0">
                         <img 
-                          src="/assets/thumb-poster-nsqip-sampling-2017.jpg" 
+                          src="/sheena-portfolio/assets/thumb-poster-nsqip-sampling-2017.jpg" 
                           alt="NSQIP sampling poster thumbnail"
                           className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                         />
@@ -461,7 +461,7 @@ export default function Home() {
                           [Poster abstract]. ACS Quality and Safety Conference.
                         </p>
                         <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                          <a href="/assets/poster-nsqip-sampling-2017.pdf" target="_blank">
+                          <a href="/sheena-portfolio/assets/poster-nsqip-sampling-2017.pdf" target="_blank">
                             <FileText className="mr-2 h-4 w-4" />
                             View Poster
                           </a>
@@ -472,9 +472,9 @@ export default function Home() {
 
                   <div className="border-l-4 border-accent pl-4">
                     <div className="flex gap-4 items-start">
-                      <a href="/assets/poster-circadian-ventilation-2015.pdf" target="_blank" className="flex-shrink-0">
+                      <a href="/sheena-portfolio/assets/poster-circadian-ventilation-2015.pdf" target="_blank" className="flex-shrink-0">
                         <img 
-                          src="/assets/thumb-poster-circadian-ventilation-2015.jpg" 
+                          src="/sheena-portfolio/assets/thumb-poster-circadian-ventilation-2015.jpg" 
                           alt="Circadian rhythms and ventilation poster thumbnail"
                           className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                         />
@@ -488,13 +488,13 @@ export default function Home() {
                         <div className="flex items-center gap-3 flex-wrap">
                           <Badge variant="outline" className="mt-2">Award Winner – Outstanding Presentation</Badge>
                           <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                            <a href="/assets/poster-circadian-ventilation-2015.pdf" target="_blank">
+                            <a href="/sheena-portfolio/assets/poster-circadian-ventilation-2015.pdf" target="_blank">
                               <FileText className="mr-2 h-4 w-4" />
                               View Poster
                             </a>
                           </Button>
                           <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                            <a href="/assets/award-outstanding-presentation-2015.pdf" target="_blank">
+                            <a href="/sheena-portfolio/assets/award-outstanding-presentation-2015.pdf" target="_blank">
                               <Award className="mr-2 h-4 w-4" />
                               View Award
                             </a>
@@ -559,9 +559,9 @@ export default function Home() {
               <CardContent className="pt-6 space-y-4">
                 <div className="border-l-4 border-primary pl-4">
                   <div className="flex gap-4 items-start">
-                    <a href="/assets/poster-neuroscience-2010-sfn.pdf" target="_blank" className="flex-shrink-0">
+                    <a href="/sheena-portfolio/assets/poster-neuroscience-2010-sfn.pdf" target="_blank" className="flex-shrink-0">
                       <img 
-                        src="/assets/thumb-poster-neuroscience-2010-sfn.jpg" 
+                        src="/sheena-portfolio/assets/thumb-poster-neuroscience-2010-sfn.jpg" 
                         alt="Melanopsin retinal ganglion cells poster thumbnail"
                         className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                       />
@@ -572,7 +572,7 @@ export default function Home() {
                         Cells in Mouse. [Poster Presentation]. 40th Society for Neuroscience Annual Meeting, San Diego, CA.
                       </p>
                       <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                        <a href="/assets/poster-neuroscience-2010-sfn.pdf" target="_blank">
+                        <a href="/sheena-portfolio/assets/poster-neuroscience-2010-sfn.pdf" target="_blank">
                           <FileText className="mr-2 h-4 w-4" />
                           View Poster
                         </a>
@@ -583,9 +583,9 @@ export default function Home() {
 
                 <div className="border-l-4 border-primary pl-4">
                   <div className="flex gap-4 items-start">
-                    <a href="/assets/poster-neuroscience-2009-ascb.pdf" target="_blank" className="flex-shrink-0">
+                    <a href="/sheena-portfolio/assets/poster-neuroscience-2009-ascb.pdf" target="_blank" className="flex-shrink-0">
                       <img 
-                        src="/assets/thumb-poster-neuroscience-2009-ascb.jpg" 
+                        src="/sheena-portfolio/assets/thumb-poster-neuroscience-2009-ascb.jpg" 
                         alt="Melanopsin expressing retinal ganglion cells poster thumbnail"
                         className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
                       />
@@ -597,7 +597,7 @@ export default function Home() {
                         49th Annual Meeting for American Society for Cell Biology, San Diego, CA.
                       </p>
                       <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                        <a href="/assets/poster-neuroscience-2009-ascb.pdf" target="_blank">
+                        <a href="/sheena-portfolio/assets/poster-neuroscience-2009-ascb.pdf" target="_blank">
                           <FileText className="mr-2 h-4 w-4" />
                           View Poster
                         </a>
@@ -622,7 +622,7 @@ export default function Home() {
                   <div className="flex-1">
                     <p className="text-sm font-medium">Book for Josslynn</p>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/BookForJosslynn.pdf" target="_blank">
+                      <a href="/sheena-portfolio/assets/BookForJosslynn.pdf" target="_blank">
                         View Book PDF
                       </a>
                     </Button>
@@ -646,7 +646,7 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <img 
-                    src="/assets/AIRS_logo_earthy_circle.svg" 
+                    src="/sheena-portfolio/assets/AIRS_logo_earthy_circle.svg" 
                     alt="AIRS - Artificial Intelligence Risk & Safety Registry" 
                     className="h-16 w-16 object-contain"
                   />
@@ -730,7 +730,7 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <img 
-                    src="/assets/tellurian-logo.png" 
+                    src="/sheena-portfolio/assets/tellurian-logo.png" 
                     alt="Tellurian Heart Books" 
                     className="h-16 w-16 object-contain"
                   />
@@ -790,7 +790,7 @@ export default function Home() {
                   <div>
                     <p className="font-medium text-foreground">Curriculum Vitae</p>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/assets/2025_OctCV_SheenaKeding_.pdf" download>
+                      <a href="/sheena-portfolio/assets/2025_OctCV_SheenaKeding_.pdf" download>
                         Download Full CV (PDF)
                       </a>
                     </Button>

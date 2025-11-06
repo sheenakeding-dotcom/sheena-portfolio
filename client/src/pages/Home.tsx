@@ -67,7 +67,7 @@ export default function Home() {
                   </a>
                 </Button>
                 <Button variant="outline" asChild>
-                  <a href="/sheena-portfolio/assets/2025_OctCV_SheenaKeding_.pdf" download>
+                  <a href="/assets/2025_OctCV_SheenaKeding_.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
                   </a>
@@ -78,7 +78,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl blur-2xl"></div>
                 <img 
-                  src="/sheena-portfolio/assets/shrinkfilesizeprofphoto.jpg" 
+                  src="/assets/shrinkfilesizeprofphoto.jpg" 
                   alt="Sheena Keding" 
                   className="relative rounded-2xl shadow-2xl max-w-md w-full object-cover"
                 />
@@ -164,7 +164,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">ACCNS-P (Pediatric CNS)</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/cert-accns-p.pdf" target="_blank">
+                      <a href="/assets/cert-accns-p.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -173,7 +173,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">CPHQ (Healthcare Quality)</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/cert-cphq.pdf" target="_blank">
+                      <a href="/assets/cert-cphq.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -182,7 +182,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">Doula Certification</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/cert-doula.pdf" target="_blank">
+                      <a href="/assets/cert-doula.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -191,7 +191,7 @@ export default function Home() {
                   <div className="flex items-center justify-between">
                     <Badge variant="secondary">HeartMath Certified</Badge>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/cert-heartmath.pdf" target="_blank">
+                      <a href="/assets/cert-heartmath.pdf" target="_blank">
                         <FileText className="mr-1 h-3 w-3" />
                         View
                       </a>
@@ -367,43 +367,76 @@ export default function Home() {
                   </div>
 
                   <div className="border-l-4 border-primary pl-4">
-                    <p className="text-sm font-medium text-foreground mb-2">
-                      Schaffer, Bush, Hamilton, Ingle, Keding & Hester (2024, June). Newborn drops prevention: State of 
-                      the science [Poster presentation]. AWHONN Convention, Phoenix, AZ.
-                    </p>
-                    <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/poster-newborn-drops-2024.pdf" target="_blank">
-                        <FileText className="mr-2 h-4 w-4" />
-                        View Poster
+                    <div className="flex gap-4 items-start">
+                      <a href="/assets/poster-newborn-drops-2024.pdf" target="_blank" className="flex-shrink-0">
+                        <img 
+                          src="/assets/thumb-poster-newborn-drops-2024.jpg" 
+                          alt="Newborn drops prevention poster thumbnail"
+                          className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                        />
                       </a>
-                    </Button>
+                      <div>
+                        <p className="text-sm font-medium text-foreground mb-2">
+                          Schaffer, Bush, Hamilton, Ingle, Keding & Hester (2024, June). Newborn drops prevention: State of 
+                          the science [Poster presentation]. AWHONN Convention, Phoenix, AZ.
+                        </p>
+                        <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                          <a href="/assets/poster-newborn-drops-2024.pdf" target="_blank">
+                            <FileText className="mr-2 h-4 w-4" />
+                            View Poster
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="border-l-4 border-primary pl-4">
-                    <p className="text-sm font-medium text-foreground mb-2">
-                      Kragel, E., Bhattacharjee, S., Linda, B., Keding, S., & Yamout, S. (2023, July). Reducing Rates of 
-                      Post-Operative Pneumonia Diagnosis in a Tertiary Pediatric Care Center. [Poster presentation]. 
-                      ACS Quality and Safety Conference.
-                    </p>
-                    <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/poster-pneumonia-2023.pdf" target="_blank">
-                        <FileText className="mr-2 h-4 w-4" />
-                        View Poster
+                    <div className="flex gap-4 items-start">
+                      <a href="/assets/poster-pneumonia-2023.pdf" target="_blank" className="flex-shrink-0">
+                        <img 
+                          src="/assets/thumb-poster-pneumonia-2023.jpg" 
+                          alt="Post-operative pneumonia poster thumbnail"
+                          className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                        />
                       </a>
-                    </Button>
+                      <div>
+                        <p className="text-sm font-medium text-foreground mb-2">
+                          Kragel, E., Bhattacharjee, S., Linda, B., Keding, S., & Yamout, S. (2023, July). Reducing Rates of 
+                          Post-Operative Pneumonia Diagnosis in a Tertiary Pediatric Care Center. [Poster presentation]. 
+                          ACS Quality and Safety Conference.
+                        </p>
+                        <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                          <a href="/assets/poster-pneumonia-2023.pdf" target="_blank">
+                            <FileText className="mr-2 h-4 w-4" />
+                            View Poster
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="border-l-4 border-primary pl-4">
-                    <p className="text-sm font-medium text-foreground mb-2">
-                      Matsunaga, R. & Keding, S. (2022, July). Inter-Rater Reliability (IRR) Trigger Tool for ACS NSQIP. 
-                      [Poster presentation]. ACS Quality and Safety Conference.
-                    </p>
-                    <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/poster-irr-tool-2022.pdf" target="_blank">
-                        <FileText className="mr-2 h-4 w-4" />
-                        View Poster
+                    <div className="flex gap-4 items-start">
+                      <a href="/assets/poster-irr-tool-2022.pdf" target="_blank" className="flex-shrink-0">
+                        <img 
+                          src="/assets/thumb-poster-irr-tool-2022.jpg" 
+                          alt="IRR Trigger Tool poster thumbnail"
+                          className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                        />
                       </a>
-                    </Button>
+                      <div>
+                        <p className="text-sm font-medium text-foreground mb-2">
+                          Matsunaga, R. & Keding, S. (2022, July). Inter-Rater Reliability (IRR) Trigger Tool for ACS NSQIP. 
+                          [Poster presentation]. ACS Quality and Safety Conference.
+                        </p>
+                        <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                          <a href="/assets/poster-irr-tool-2022.pdf" target="_blank">
+                            <FileText className="mr-2 h-4 w-4" />
+                            View Poster
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="border-l-4 border-primary pl-4">
@@ -414,38 +447,60 @@ export default function Home() {
                   </div>
 
                   <div className="border-l-4 border-primary pl-4">
-                    <p className="text-sm font-medium text-foreground mb-2">
-                      Keding, S. & Murrietta, M. (2017, July). Selecting the Sampled Procedures: What's the Correct Case? 
-                      [Poster abstract]. ACS Quality and Safety Conference.
-                    </p>
-                    <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/poster-nsqip-sampling-2017.pdf" target="_blank">
-                        <FileText className="mr-2 h-4 w-4" />
-                        View Poster
+                    <div className="flex gap-4 items-start">
+                      <a href="/assets/poster-nsqip-sampling-2017.pdf" target="_blank" className="flex-shrink-0">
+                        <img 
+                          src="/assets/thumb-poster-nsqip-sampling-2017.jpg" 
+                          alt="NSQIP sampling poster thumbnail"
+                          className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                        />
                       </a>
-                    </Button>
+                      <div>
+                        <p className="text-sm font-medium text-foreground mb-2">
+                          Keding, S. & Murrietta, M. (2017, July). Selecting the Sampled Procedures: What's the Correct Case? 
+                          [Poster abstract]. ACS Quality and Safety Conference.
+                        </p>
+                        <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                          <a href="/assets/poster-nsqip-sampling-2017.pdf" target="_blank">
+                            <FileText className="mr-2 h-4 w-4" />
+                            View Poster
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
                   </div>
 
                   <div className="border-l-4 border-accent pl-4">
-                    <p className="text-sm font-medium text-foreground mb-2">
-                      Keding, S. (2015, May). Examining the Relationship between Circadian Rhythms and Discontinuation of 
-                      Mechanical Ventilation. [Poster presentation]. 7th Annual Graduate Research and Creative Activities 
-                      Symposium, Fresno, CA.
-                    </p>
-                    <div className="flex items-center gap-3 flex-wrap">
-                      <Badge variant="outline" className="mt-2">Award Winner – Outstanding Presentation</Badge>
-                      <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                        <a href="/sheena-portfolio/assets/poster-circadian-ventilation-2015.pdf" target="_blank">
-                          <FileText className="mr-2 h-4 w-4" />
-                          View Poster
-                        </a>
-                      </Button>
-                      <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                        <a href="/sheena-portfolio/assets/award-outstanding-presentation-2015.pdf" target="_blank">
-                          <Award className="mr-2 h-4 w-4" />
-                          View Award
-                        </a>
-                      </Button>
+                    <div className="flex gap-4 items-start">
+                      <a href="/assets/poster-circadian-ventilation-2015.pdf" target="_blank" className="flex-shrink-0">
+                        <img 
+                          src="/assets/thumb-poster-circadian-ventilation-2015.jpg" 
+                          alt="Circadian rhythms and ventilation poster thumbnail"
+                          className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                        />
+                      </a>
+                      <div>
+                        <p className="text-sm font-medium text-foreground mb-2">
+                          Keding, S. (2015, May). Examining the Relationship between Circadian Rhythms and Discontinuation of 
+                          Mechanical Ventilation. [Poster presentation]. 7th Annual Graduate Research and Creative Activities 
+                          Symposium, Fresno, CA.
+                        </p>
+                        <div className="flex items-center gap-3 flex-wrap">
+                          <Badge variant="outline" className="mt-2">Award Winner – Outstanding Presentation</Badge>
+                          <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                            <a href="/assets/poster-circadian-ventilation-2015.pdf" target="_blank">
+                              <FileText className="mr-2 h-4 w-4" />
+                              View Poster
+                            </a>
+                          </Button>
+                          <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                            <a href="/assets/award-outstanding-presentation-2015.pdf" target="_blank">
+                              <Award className="mr-2 h-4 w-4" />
+                              View Award
+                            </a>
+                          </Button>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
@@ -503,30 +558,52 @@ export default function Home() {
             <Card>
               <CardContent className="pt-6 space-y-4">
                 <div className="border-l-4 border-primary pl-4">
-                  <p className="text-sm font-medium text-foreground mb-2">
-                    Panda, S., Keding, S., & Hatori, M. (2010, November). Comprehensive Map of Melanopsin-Retinal Ganglion 
-                    Cells in Mouse. [Poster Presentation]. 40th Society for Neuroscience Annual Meeting, San Diego, CA.
-                  </p>
-                  <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                    <a href="/sheena-portfolio/assets/poster-neuroscience-2010-sfn.pdf" target="_blank">
-                      <FileText className="mr-2 h-4 w-4" />
-                      View Poster
+                  <div className="flex gap-4 items-start">
+                    <a href="/assets/poster-neuroscience-2010-sfn.pdf" target="_blank" className="flex-shrink-0">
+                      <img 
+                        src="/assets/thumb-poster-neuroscience-2010-sfn.jpg" 
+                        alt="Melanopsin retinal ganglion cells poster thumbnail"
+                        className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                      />
                     </a>
-                  </Button>
+                    <div>
+                      <p className="text-sm font-medium text-foreground mb-2">
+                        Panda, S., Keding, S., & Hatori, M. (2010, November). Comprehensive Map of Melanopsin-Retinal Ganglion 
+                        Cells in Mouse. [Poster Presentation]. 40th Society for Neuroscience Annual Meeting, San Diego, CA.
+                      </p>
+                      <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                        <a href="/assets/poster-neuroscience-2010-sfn.pdf" target="_blank">
+                          <FileText className="mr-2 h-4 w-4" />
+                          View Poster
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="border-l-4 border-primary pl-4">
-                  <p className="text-sm font-medium text-foreground mb-2">
-                    Keding, S., Hatori, M., Le, H., & Panda, S. (2009, December). Comprehensive Labelling of Melanopsin 
-                    Expressing Retinal Ganglion Cells and Mapping Their Central Projections in Mouse. [Poster Presentation]. 
-                    49th Annual Meeting for American Society for Cell Biology, San Diego, CA.
-                  </p>
-                  <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                    <a href="/sheena-portfolio/assets/poster-neuroscience-2009-ascb.pdf" target="_blank">
-                      <FileText className="mr-2 h-4 w-4" />
-                      View Poster
+                  <div className="flex gap-4 items-start">
+                    <a href="/assets/poster-neuroscience-2009-ascb.pdf" target="_blank" className="flex-shrink-0">
+                      <img 
+                        src="/assets/thumb-poster-neuroscience-2009-ascb.jpg" 
+                        alt="Melanopsin expressing retinal ganglion cells poster thumbnail"
+                        className="w-24 h-auto rounded border border-border hover:border-primary transition-colors cursor-pointer"
+                      />
                     </a>
-                  </Button>
+                    <div>
+                      <p className="text-sm font-medium text-foreground mb-2">
+                        Keding, S., Hatori, M., Le, H., & Panda, S. (2009, December). Comprehensive Labelling of Melanopsin 
+                        Expressing Retinal Ganglion Cells and Mapping Their Central Projections in Mouse. [Poster Presentation]. 
+                        49th Annual Meeting for American Society for Cell Biology, San Diego, CA.
+                      </p>
+                      <Button variant="link" size="sm" className="h-auto p-0" asChild>
+                        <a href="/assets/poster-neuroscience-2009-ascb.pdf" target="_blank">
+                          <FileText className="mr-2 h-4 w-4" />
+                          View Poster
+                        </a>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -545,7 +622,7 @@ export default function Home() {
                   <div className="flex-1">
                     <p className="text-sm font-medium">Book for Josslynn</p>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/BookForJosslynn.pdf" target="_blank">
+                      <a href="/assets/BookForJosslynn.pdf" target="_blank">
                         View Book PDF
                       </a>
                     </Button>
@@ -569,7 +646,7 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <img 
-                    src="/sheena-portfolio/assets/AIRS_logo_earthy_circle.svg" 
+                    src="/assets/AIRS_logo_earthy_circle.svg" 
                     alt="AIRS - Artificial Intelligence Risk & Safety Registry" 
                     className="h-16 w-16 object-contain"
                   />
@@ -653,7 +730,7 @@ export default function Home() {
               <CardHeader>
                 <div className="flex items-center gap-4">
                   <img 
-                    src="/sheena-portfolio/assets/tellurian-logo.png" 
+                    src="/assets/tellurian-logo.png" 
                     alt="Tellurian Heart Books" 
                     className="h-16 w-16 object-contain"
                   />
@@ -713,7 +790,7 @@ export default function Home() {
                   <div>
                     <p className="font-medium text-foreground">Curriculum Vitae</p>
                     <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/2025_OctCV_SheenaKeding_.pdf" download>
+                      <a href="/assets/2025_OctCV_SheenaKeding_.pdf" download>
                         Download Full CV (PDF)
                       </a>
                     </Button>

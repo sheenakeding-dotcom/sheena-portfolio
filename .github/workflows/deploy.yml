@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: client
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,20 +35,10 @@ jobs:
           version: 8
           
       - name: Install dependencies
-        run: |
-         cd client
-         pnpm install
+        run: pnpm install
         
       - name: Build
-        run: |
-         cd client
-         pnpm run build
-         
-      - name: Check dist folder
-        run: |
-          ls -la
-          ls -la client/
-          ls -la client/dist/ || echo "client/dist does not exist"
+        run: pnpm run build
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -53,7 +46,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'client/dist'
+          path: client/dist
           
   deploy:
     environment:

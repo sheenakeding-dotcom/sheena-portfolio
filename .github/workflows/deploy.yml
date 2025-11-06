@@ -32,7 +32,9 @@ jobs:
           version: 8
           
       - name: Install dependencies
-        run: pnpm install
+        run: |
+         cd client
+         pnpm install
         
       - name: Build
         run: |

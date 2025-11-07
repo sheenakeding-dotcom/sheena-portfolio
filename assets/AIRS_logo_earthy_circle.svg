@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="500" viewBox="0 0 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Colors -->
+  <defs>
+    <style type="text/css"><![CDATA[
+      .earth { fill: #4F6B3C; } /* earthy green */
+      .text { fill: #4F6B3C; font-family: "Inter", "Segoe UI", Arial, Helvetica, sans-serif; }
+      .title { font-size: 180px; font-weight: 800; letter-spacing: 2px; }
+      .subtitle { font-size: 48px; font-weight: 500; }
+    ]]></style>
+  </defs>
+
+  <!-- Icon: circular badge with plant + circuit nodes -->
+  <g transform="translate(60,60)">
+    <!-- Outer circle -->
+    <circle cx="180" cy="180" r="180" stroke="#4F6B3C" stroke-width="18" fill="none"/>
+    <!-- Stem -->
+    <path class="earth" d="M180 320 C182 260, 182 210, 180 160 C178 210, 178 260, 180 320 Z" />
+    <!-- Leaves -->
+    <path class="earth" d="M180 220 C145 220, 120 210, 95 190 C120 200, 145 200, 180 200 C215 200, 240 200, 265 190 C240 210, 215 220, 180 220 Z"/>
+    <!-- Branches -->
+    <path d="M180 160 L120 120" stroke="#4F6B3C" stroke-width="14" stroke-linecap="round"/>
+    <path d="M180 160 L240 120" stroke="#4F6B3C" stroke-width="14" stroke-linecap="round"/>
+    <path d="M180 160 L180 110" stroke="#4F6B3C" stroke-width="14" stroke-linecap="round"/>
+    <!-- Circuit nodes -->
+    <circle cx="120" cy="120" r="16" class="earth"/>
+    <circle cx="240" cy="120" r="16" class="earth"/>
+    <circle cx="180" cy="110" r="16" class="earth"/>
+  </g>
+
+  <!-- Text lockup to the right -->
+  <g transform="translate(420,120)">
+    <text class="text title">AIRS</text>
+    <text class="text subtitle" y="140">Artificial Intelligence</text>
+    <text class="text subtitle" y="200">Risk &amp; Safety Registry</text>
+  </g>
+</svg>

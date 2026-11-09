@@ -310,7 +310,42 @@ export default function Home() {
             Research & Scholarly Work
           </h3>
 
-          {/* Masters thesis: add citation and PDF link here once the thesis filename is available. */}
+         {/* Master's Thesis */}
+<div className="mb-8">
+  <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
+    <GraduationCap className="h-6 w-6 text-accent" />
+    Graduate Research
+  </h4>
+
+  <Card>
+    <CardContent className="pt-6">
+      <div className="border-l-4 border-primary pl-4">
+        <p className="text-sm font-medium text-foreground mb-3">
+          Keding, S. R. (2015). <em>Examining the relationship between circadian
+          rhythm and discontinuation of mechanical ventilation</em> [Master's
+          thesis, California State University, Fresno].
+        </p>
+
+        <p className="text-sm text-muted-foreground mb-3">
+          Retrospective correlational research examining the relationship
+          between circadian temperature rhythms and successful discontinuation
+          of mechanical ventilation in critically ill patients.
+        </p>
+
+        <Button variant="outline" size="sm" asChild>
+          <a
+            href="https://scholarworks.calstate.edu/concern/theses/2b88qd632"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ExternalLink className="mr-2 h-4 w-4" />
+            View Master's Thesis
+          </a>
+        </Button>
+      </div>
+    </CardContent>
+  </Card>
+</div>
 
           {/* Peer-Reviewed Publications */}
           <div className="mb-8">

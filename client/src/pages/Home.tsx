@@ -619,28 +619,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Additional Resources */}
-          <div>
-            <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
-              <FileText className="h-6 w-6 text-accent" />
-              Additional Resources
-            </h4>
-            <Card>
-              <CardContent className="pt-6 space-y-3">
-                <div className="flex items-center gap-3">
-                  <BookOpen className="h-5 w-5 text-muted-foreground flex-shrink-0" />
-                  <div className="flex-1">
-                    <p className="text-sm font-medium">Book for Josslynn</p>
-                    <Button variant="link" size="sm" className="h-auto p-0" asChild>
-                      <a href="/sheena-portfolio/assets/BookForJosslynn.pdf" target="_blank">
-                        View Book PDF
-                      </a>
-                    </Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </section>
 
@@ -652,61 +630,6 @@ export default function Home() {
             Projects & Initiatives
           </h3>
           <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <img 
-                    src="/sheena-portfolio/assets/AIRS_logo_earthy_circle.svg" 
-                    alt="AIRS - Artificial Intelligence Risk & Safety Registry" 
-                    className="h-16 w-16 object-contain"
-                  />
-                  <div>
-                    <CardTitle>AIRS — Artificial Intelligence Risk & Safety Registry</CardTitle>
-                    <CardDescription>Nursing-Led Nonprofit Registry</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-foreground/80 mb-4">
-                  The first nursing-led nonprofit registry to track harm, no-harm events, and near misses related to 
-                  AI and robotics across healthcare and wellness, transforming real-world incidents into shared learning, 
-                  benchmarking, and prevention.
-                </p>
-                <div className="flex gap-2">
-                  <Badge variant="secondary">AI Safety</Badge>
-                  <Badge variant="secondary">Healthcare Innovation</Badge>
-                  <Badge variant="secondary">Nursing Leadership</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <div className="flex items-center gap-4">
-                  <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-2xl font-bold text-primary">ATNC</span>
-                  </div>
-                  <div>
-                    <CardTitle>ATNC — Advanced Technology Nursing Certification</CardTitle>
-                    <CardDescription>First AI & Digital Health Certification for Nurses (Coming Soon)</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-foreground/80 mb-4">
-                  Co-developed the first certification program designed to equip nurses with competencies in AI, robotics, 
-                  wearables, and digital health implementation. ATNC bridges clinical expertise with emerging technology, 
-                  preparing nurses to lead safe, responsible AI adoption across healthcare systems.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary">Nursing Education</Badge>
-                  <Badge variant="secondary">AI Competency</Badge>
-                  <Badge variant="secondary">Digital Health</Badge>
-                  <Badge variant="outline">Coming Soon</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
             <Card>
               <CardHeader>
                 <CardTitle>MedNavigator + PAFOs.ai</CardTitle>
@@ -732,6 +655,30 @@ export default function Home() {
                     <p className="text-xs text-muted-foreground">➡️ Live demo link: (MedNavigator link TBD)</p>
                     <p className="text-xs text-muted-foreground">➡️ Platform: (PAFOs.ai link TBD)</p>
                   </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Curtain-Ready — Dance Studio Recital Management Application</CardTitle>
+                <CardDescription>AI-Assisted Web Application Development | Pilot Project</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-foreground/80 mb-4">
+                  Developed a web application to simplify dance recital planning and coordination for studio
+                  administrators and families. The application organizes class rosters, performance schedules,
+                  rehearsal details, and individualized student information through administrative and
+                  parent-facing interfaces.
+                </p>
+                <p className="text-sm text-foreground/80 mb-4">
+                  Built using React, TypeScript, Supabase, and Vercel, leveraging AI-assisted coding to translate
+                  operational challenges into a functional digital solution.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary">Web Application</Badge>
+                  <Badge variant="secondary">AI-Assisted Development</Badge>
+                  <Badge variant="outline">Pilot Project</Badge>
                 </div>
               </CardContent>
             </Card>

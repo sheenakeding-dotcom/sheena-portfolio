@@ -1,3 +1,4 @@
+```
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -32,7 +33,7 @@ export default function Home() {
                 <a href="#experience">Experience</a>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <a href="#publications">Publications</a>
+                <a href="#research">Research</a>
               </Button>
               <Button variant="ghost" size="sm" asChild>
                 <a href="#contact">Contact</a>
@@ -302,59 +303,47 @@ export default function Home() {
       </section>
 
       {/* Publications & Presentations */}
-      <section id="publications" className="py-16 md:py-24 bg-muted/30">
+      <section id="research" className="py-16 md:py-24 bg-muted/30">
         <div className="container">
           <h3 className="text-3xl font-bold mb-8 text-foreground flex items-center gap-2">
             <BookOpen className="h-8 w-8 text-primary" />
-            Publications & Presentations
+            Research & Scholarly Work
           </h3>
 
-          {/* JBI Video Commentaries */}
+          {/* Masters thesis: add citation and PDF link here once the thesis filename is available. */}
+
+          {/* Peer-Reviewed Publications */}
           <div className="mb-8">
             <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
-              <Video className="h-6 w-6 text-accent" />
-              JBI Evidence Implementation Digital Commentaries
+              <BookOpen className="h-6 w-6 text-accent" />
+              Peer-Reviewed Publications
             </h4>
-            <div className="space-y-4">
-              <Card>
-                <CardContent className="pt-6">
-                  <p className="text-sm text-foreground/90 mb-3">
-                    Keding, S. (2024, December). Barriers and facilitators of evidence-based practice in the Portuguese 
-                    context: Role of formal nursing leaders [Video commentary]. JBI Evidence Implementation Digital 
-                    Commentary Series.
+            <Card>
+              <CardContent className="pt-6 space-y-4">
+                <div className="border-l-4 border-primary pl-4">
+                  <p className="text-sm text-foreground/90">
+                    Brown, T. M., Gias, C., Hatori, M., <strong>Keding, S. R.</strong>, Coffey, P. J., Gigg, J., ... & Lucas, R. J. (2010). 
+                    Melanopsin contributions to irradiance coding in the thalamo-cortical visual system. 
+                    <em> PLoS Biology, 8</em>(12), e1000558.
                   </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <a 
-                      href="https://journals.lww.com/ijebh/pages/video.aspx?v=62" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Video Commentary
-                    </a>
-                  </Button>
-                </CardContent>
-              </Card>
+                </div>
 
-              <Card>
-                <CardContent className="pt-6">
-                  <p className="text-sm text-foreground/90 mb-3">
-                    Keding, S. (2024, July). Pediatric fall prevention [Video commentary]. JBI Evidence Implementation 
-                    Digital Commentary Series.
+                <div className="border-l-4 border-primary pl-4">
+                  <p className="text-sm text-foreground/90">
+                    Panda, S., Hatori, M., <strong>Keding, S. R.</strong>, & Le, H. (2009). Cellular circuitry of melanopsin function. 
+                    <em> Journal of Vision, 9</em>(14), 24-249.
                   </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <a 
-                      href="https://journals.lww.com/ijebh/pages/video.aspx?v=56" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      View Video Commentary
-                    </a>
-                  </Button>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+
+                <div className="border-l-4 border-primary pl-4">
+                  <p className="text-sm text-foreground/90">
+                    Hatori, M., Le, H., Vollmers, C., <strong>Keding, S. R.</strong>, Tanaka, N., Schmedt, C., ... & Panda, S. (2008). 
+                    Inducible ablation of melanopsin-expressing retinal ganglion cells reveals their central role in 
+                    non-image forming visual responses. <em>PLoS One, 3</em>(6), e2451.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Conference Presentations & Posters */}
@@ -522,40 +511,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Peer-Reviewed Publications */}
-          <div className="mb-8">
-            <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
-              <BookOpen className="h-6 w-6 text-accent" />
-              Peer-Reviewed Publications
-            </h4>
-            <Card>
-              <CardContent className="pt-6 space-y-4">
-                <div className="border-l-4 border-primary pl-4">
-                  <p className="text-sm text-foreground/90">
-                    Brown, T. M., Gias, C., Hatori, M., <strong>Keding, S. R.</strong>, Coffey, P. J., Gigg, J., ... & Lucas, R. J. (2010). 
-                    Melanopsin contributions to irradiance coding in the thalamo-cortical visual system. 
-                    <em> PLoS Biology, 8</em>(12), e1000558.
-                  </p>
-                </div>
-
-                <div className="border-l-4 border-primary pl-4">
-                  <p className="text-sm text-foreground/90">
-                    Panda, S., Hatori, M., <strong>Keding, S. R.</strong>, & Le, H. (2009). Cellular circuitry of melanopsin function. 
-                    <em> Journal of Vision, 9</em>(14), 24-249.
-                  </p>
-                </div>
-
-                <div className="border-l-4 border-primary pl-4">
-                  <p className="text-sm text-foreground/90">
-                    Hatori, M., Le, H., Vollmers, C., <strong>Keding, S. R.</strong>, Tanaka, N., Schmedt, C., ... & Panda, S. (2008). 
-                    Inducible ablation of melanopsin-expressing retinal ganglion cells reveals their central role in 
-                    non-image forming visual responses. <em>PLoS One, 3</em>(6), e2451.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-
           {/* Research Posters from Neuroscience */}
           <div className="mb-8">
             <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
@@ -614,6 +569,54 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+
+          {/* JBI Video Commentaries */}
+          <div className="mb-8">
+            <h4 className="text-2xl font-semibold mb-4 text-foreground flex items-center gap-2">
+              <Video className="h-6 w-6 text-accent" />
+              JBI Evidence Implementation Digital Commentaries
+            </h4>
+            <div className="space-y-4">
+              <Card>
+                <CardContent className="pt-6">
+                  <p className="text-sm text-foreground/90 mb-3">
+                    Keding, S. (2024, December). Barriers and facilitators of evidence-based practice in the Portuguese 
+                    context: Role of formal nursing leaders [Video commentary]. JBI Evidence Implementation Digital 
+                    Commentary Series.
+                  </p>
+                  <Button variant="outline" size="sm" asChild>
+                    <a 
+                      href="https://journals.lww.com/ijebh/pages/video.aspx?v=62" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      View Video Commentary
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardContent className="pt-6">
+                  <p className="text-sm text-foreground/90 mb-3">
+                    Keding, S. (2024, July). Pediatric fall prevention [Video commentary]. JBI Evidence Implementation 
+                    Digital Commentary Series.
+                  </p>
+                  <Button variant="outline" size="sm" asChild>
+                    <a 
+                      href="https://journals.lww.com/ijebh/pages/video.aspx?v=56" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      View Video Commentary
+                    </a>
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
           </div>
 
           {/* Additional Resources */}
@@ -820,3 +823,4 @@ export default function Home() {
     </div>
   );
 }
+```

@@ -95,22 +95,29 @@ export default function Home() {
           <Card>
             <CardContent className="pt-6">
               <p className="text-foreground/90 leading-relaxed mb-6">
-                Clinical Nurse Specialist and healthcare quality leader with proven ability to design, lead, and 
-                evaluate high-impact initiatives across complex systems, including multi-site leadership of ACS 
-                NSQIP Pediatric and Solutions for Patient Safety programs in Northern California.
+               Clinical Nurse Specialist, healthcare quality and patient safety leader, educator, researcher, and healthcare innovator.
               </p>
               <p className="text-foreground/90 leading-relaxed mb-6">
-                Skilled in translating data and research into sustainable practice change, I blend clinical expertise 
-                with a cross-disciplinary lens—drawing from nursing, implementation science, technology, and holistic 
-                systems thinking. I'm passionate about bridging gaps between evidence, technology, and real-world 
-                application to improve health outcomes for children, families, and communities.
+                My career has been shaped by curiosity and a desire to understand how we can make healthcare work better for the people who depend on it. I began my professional journey in neuroscience research at the Salk Institute, where I developed an appreciation for scientific inquiry and discovery and also became fascinated by the challenge of translating what we know into what we actually do. That insight ultimately led me to nursing and to the Clinical Nurse Specialist role, where evidence translation, systems thinking, education, and improvement come together.
               </p>
-              <p className="text-foreground/90 leading-relaxed">
-                Outside the hospital, I extend my impact as a school site council member and garden docent, designing 
-                hands-on garden-based wellness education reaching over 700 students. My curiosity spans AI in healthcare, 
-                functional nursing, regenerative soil practices, and holistic modalities—each informing a systems-based 
-                approach to population health, equity, and future-ready models of care.
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                Over the past decade, I have led and supported complex quality and patient safety initiatives across multiple healthcare organizations and medical centers. My work has included pediatric surgical quality, harm-prevention programs, clinical outcomes analysis, patient safety investigations, evidence-based practice, professional education, workflow redesign, performance measurement, and multidisciplinary improvement. I particularly enjoy taking a complex problem, studying it from multiple perspectives, identifying where systems or processes are getting in the way, and bringing people together to design a better path forward.
               </p>
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                Education and scientific inquiry remain important parts of my work. I have taught evidence-based practice, mentored nurses in research and quality improvement, developed education for clinicians and physicians, facilitated professional workshops, and serve as guest faculty in artificial intelligence in healthcare. I also contribute to nursing innovation and AI education through professional organizations and conference programs.
+              </p>
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                More recently, my curiosity has expanded into healthcare technology and artificial intelligence. I hold advanced certification in the Principles & Applications of AI through the American Board of Artificial Intelligence in Medicine and am particularly interested in the safe, responsible integration of AI into clinical workflows. I have explored and developed AI-enabled workflow tools, healthcare applications, computer-vision concepts, and technology-supported approaches to patient safety and clinical quality.
+              </p>
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                I also enjoy building outside traditional healthcare environments. Using AI-assisted development tools, I have created functional web applications, workflow prototypes, websites, and automations for small businesses and community organizations. These experiences have reinforced something I have seen throughout my career: innovation is often less about having every technical skill yourself and more about understanding the problem deeply, asking the right questions, bringing together the right expertise, and being willing to learn.
+              </p>
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                Across all of these areas, my approach is consistent: stay curious, follow the evidence, understand the system, listen to the people closest to the work, and translate ideas into practical action.
+              </p>
+              <p  className="text-foreground/90 leading-relaxed mb-6"> 
+                I am especially interested in connecting with people working at the intersection of healthcare quality, patient safety, nursing, research, AI, technology, and human-centered innovation and in collaborations that turn promising ideas into meaningful improvements in care.
+              </p>          
             </CardContent>
           </Card>
         </div>

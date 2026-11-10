@@ -23,7 +23,7 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
         <div className="container py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-primary">Sheena Keding, MSN, RN, CNS</h1>
+            <h1 className="text-2xl font-bold text-primary">Sheena Keding, MSN, RN, CNS, ACCNS-P, CPHQ</h1>
             <div className="flex gap-4">
               <Button variant="ghost" size="sm" asChild>
                 <a href="#about">About</a>
